@@ -3,3 +3,4 @@ venv/
 *.pyo
 .pytest_cache/
 .vscode/
+.idea/
