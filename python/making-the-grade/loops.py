@@ -61,7 +61,7 @@ def student_ranking(student_scores, student_names):
     """
     final = []
     for index,name in enumerate(student_names):
-        final.append(str(index+1)+". " +student_names[index]+": "+ str(student_scores[index]))
+        final.append(str(index+1)+". " +name+": "+ str(student_scores[index]))
     return final
 
 def perfect_score(student_info):
